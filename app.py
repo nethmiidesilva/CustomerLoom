@@ -4,7 +4,7 @@ from pages.churn_prediction import churn_prediction_page
 
 def main():
     # Sidebar navigation
-    st.sidebar.image("churn-prediciton-app/assets/logo.jpg", width=200)
+    st.sidebar.image("churn-prediction-app/assets/logo.jpg", width=200)
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["About", "Churn Prediction"])
     
